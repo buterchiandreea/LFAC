@@ -1,0 +1,63 @@
+struct bla {
+    float MARIO;
+}a;
+
+int function(int s, int b);
+
+int main() {
+
+    int i;
+    int var;
+    int vars;
+    bla x;
+    int A;
+    A = 9;
+    i = 10;
+    float b;
+    char c;
+    string s;
+    int vector[100];
+    int array[100][100];
+    int z;
+    z = 8;
+    print(z);
+    print(z+1);
+    print(z+i);
+    b = 6.0;
+    c = 'a';
+    s = "Ana";
+
+    x.MARIO = 1.0;
+    print(x.MARIO + 9.0);
+ 
+    print(var);
+
+    function(i, i);
+    function(function(z, z), i);
+ 
+    
+    for(i=0; i<10; i+=1) {
+        print(200);
+    }
+
+    if (z>i || z<i && z==i) {
+        print(z*10000);
+        }
+        else {
+            print(i*9);
+        }
+    
+
+    for(i=0; i<10; i+=1) {
+        if (a>i) {
+        print(a);
+        }
+        else {
+            print(i+9);
+        }
+    }
+
+}
+
+
+
